@@ -1,3 +1,3 @@
 
 
-## 🏆 Leaderboard: https://sanchit-gandhi-whisper-event-winners.hf.space
+### 🏆 Leaderboard: https://sanchit-gandhi-whisper-event-winners.hf.space
