@@ -4,7 +4,7 @@
 
 
 
-| Language     | Whisper Model WER | Whisper Model Large V2 WER |
+| Language     | Whisper Large V2 WER (Official)| Custom Fine-tuned Whisper Model WER  |
 |--------------|------------------|---------------------------|
 | Azerbaijani  | NA               | 34.32                     |
 | Breton       | NA               | 35.11                     |
