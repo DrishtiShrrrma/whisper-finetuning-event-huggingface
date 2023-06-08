@@ -2,6 +2,7 @@
 
 - PEFT employs various techniques, including LoRa, to efficiently fine-tune large language models.
 - PEFT only fine-tunes a small number of (extra) model parameters while freezing most parameters of the pretrained model, thereby greatly decreasing the computational and storage costs.
+- Need : As model sizes continue to increase, fine-tuning a model is computationally expensive and storage heavy. For example, a Whisper-large-v2 model requires ~24GB of GPU VRAM for full fine-tuning and requires ~7 GB of storage for each fine-tuned checkpoint. For low-resource environments --> a bottleneck and often near impossible to get meaningful results.
 
 
 ## LoRA (Low Rank Adaptation)
