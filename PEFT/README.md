@@ -1,4 +1,9 @@
-## PEFT
+## PEFT (Parameter Efficient Fine Tuning)
 
 - PEFT employs various techniques, including LoRa, to efficiently fine-tune large language models.
-- LoRa focuses on adding extra weights to the model while freezing most of the pre-trained network's parameters.
+- PEFT only fine-tunes a small number of (extra) model parameters while freezing most parameters of the pretrained model, thereby greatly decreasing the computational and storage costs.
+
+
+## LoRA
+- A type of PEFT
+- LoRA freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture. This greatly reduces the number of trainable parameters for downstream tasks.
